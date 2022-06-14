@@ -1,0 +1,41 @@
+// @import "../../../Styles/variables"
+.appHeaderContainer {
+    max-height: 570px;
+    height: 65px;
+    background: #28b76b;
+    justify-content: space-between;
+    color: white;
+    a {
+        color: white;
+        text-transform: uppercase;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        // border-radius: 10px;
+        height: 100%;
+        margin: 0px!important;
+    }
+    .forEach:hover {
+        a {
+            color: white;
+            text-transform: uppercase;
+        }
+        cursor: pointer;
+        border-radius: 15px;
+        box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.3),
+            inset -6px -6px 10px 0 rgba(255, 255, 255, 0.3);
+    }
+    .forEach{
+        width: 85%;
+        border-radius: 15px;
+        box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+            -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
+    }
+    .forUser{
+        border-left: 1px solid white;
+    }
+  }
