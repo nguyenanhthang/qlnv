@@ -71,9 +71,11 @@ const CreateUser = (props) => {
                                 <option>
                                     staff
                                 </option>
+                                <option>
+                                    admin
+                                </option>
                             </Input>
                         </FormGroup>
-
                     </Form>
                 </ModalBody>
                 <ModalFooter>
